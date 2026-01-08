@@ -1,0 +1,18 @@
+.page {
+  background-color: rgba(42, 44, 47, 1);
+  margin-left: 11.56%;
+  margin-right: 11.56%;
+  color: white;
+  font-family: "inter", Arial, sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .page {
+    margin-left: 3.125%;
+    margin-right: 3.125%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .page {
+    margin: 0;
+  }
+}
